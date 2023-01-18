@@ -102,7 +102,7 @@ extra:
     
 # Page tree
 nav:
-      - Présentation: Présentation.md
+      - Présentation: index.md
       - Bibliothèques: Bibliothèques.md
       - Étude exploratoire des données: Etude exploratoire des données.md
       - Visualisation des données: Vizualisation des données.md
