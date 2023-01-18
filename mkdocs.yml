@@ -1,5 +1,6 @@
 # Project information
 site_name: Boston Dataset
+repo_url: https://github.com/abdellatif-belmady/Boston-documentation
 site_author: Abdellatif BELMADY
 
 # Copyright
@@ -9,8 +10,18 @@ copyright: Copyright &copy; 2022 - 2023 Abdellatif BELMADY
 theme:
   language: fr
   palette:
-    primary: pink
-    accent: pink
+    # Palette toggle for light mode
+    - scheme: default
+      # primary: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      # primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
     
   logo: assets/logo.png
 
@@ -19,6 +30,7 @@ theme:
   name: material
   
   features:
+      - content.action.edit
     # - announce.dismiss
     - content.code.annotate
     # - content.tabs.link
@@ -31,12 +43,14 @@ theme:
     # - navigation.sections
     # - navigation.tabs
     # - navigation.tabs.sticky
-    # - navigation.top
+    - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
+    - navigation.footer
+    - navigation.expand
     # - toc.integrate
   
   font:
