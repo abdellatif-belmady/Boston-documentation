@@ -2,6 +2,8 @@
 site_name: Boston Dataset
 repo_url: https://github.com/abdellatif-belmady/Boston-documentation
 site_author: Abdellatif BELMADY
+edit_uri: https://github.com/abdellatif-belmady/Boston-documentation/tree/main/docs
+repo_name: abdellatif-belmady/Boston-documentation
 
 # Copyright
 copyright: Copyright &copy; 2022 - 2023 Abdellatif BELMADY
