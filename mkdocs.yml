@@ -30,7 +30,7 @@ theme:
   name: material
   
   features:
-      - content.action.edit
+    - content.action.edit
     # - announce.dismiss
     - content.code.annotate
     # - content.tabs.link
@@ -49,8 +49,8 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    - navigation.footer
     - navigation.expand
+    - navigation.footer
     # - toc.integrate
   
   font:
