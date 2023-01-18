@@ -87,18 +87,18 @@ markdown_extensions:
   - pymdownx.superfences
 
 # Customization
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Other-Ways
-    - icon: fontawesome/brands/linkedIn
-      link: https://www.linkedin.com/company/other-ways25/
-    - icon: fontawesome/brands/facebook
-      link: https://web.facebook.com/people/Other-Ways/100080686222034/
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@otherways8368/featured
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/otherways25?utm_source=qr
+#extra:
+  #social:
+    #- icon: fontawesome/brands/github
+     # link: https://github.com/Other-Ways
+    #- icon: fontawesome/brands/linkedIn
+     # link: https://www.linkedin.com/company/other-ways25/
+    #- icon: fontawesome/brands/facebook
+     # link: https://web.facebook.com/people/Other-Ways/100080686222034/
+    #- icon: fontawesome/brands/youtube
+    #  link: https://www.youtube.com/@otherways8368/featured
+    #- icon: fontawesome/brands/instagram
+    #  link: https://www.instagram.com/otherways25?utm_source=qr
     
 # Page tree
 nav:
