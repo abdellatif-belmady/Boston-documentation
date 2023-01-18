@@ -17,7 +17,7 @@ jobs:
       - run : pip install mkdocs-minify-plugin>=0.3
       - run : pip install mkdocs-rss-plugin>=1.2
       - run : pip install mkdocs-redirects>=1.0
-      - run : pip install pillow<10
+      - run : pip install pillow
       - run: pip install --force-reinstall mkdocs-material>=5.0.0b2
       - run: pip install pymdown-extensions
       - run: mkdocs gh-deploy --force --clean --verbose
